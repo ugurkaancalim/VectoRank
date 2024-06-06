@@ -1,0 +1,6 @@
+@SSE.App.WebAPI_HostAddress = http://localhost:5113
+
+GET {{SSE.App.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

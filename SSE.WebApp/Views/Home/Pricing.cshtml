@@ -1,0 +1,384 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Pricing";
+}
+
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="bg-100 mt-7 py-7">
+
+    <div class="container-lg">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-5 text-center mb-3">
+                <h2>Üyelik Planları</h2>
+                <p>Size Uygun Planı Seçerek Maceraya Başlayın.</p>
+            </div>
+        </div>
+        <div class="row h-100 justify-content-center">
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+                <div class="card h-100">
+                    <div class="card-body flex-column justify-content-around mx-auto">
+                        <div class="text-center pt-5">
+                            <img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                            <h2 class="mt-4">Starter</h2>
+                            <h5>2.6$+KDV/Ay</h5>
+                        </div>
+                        <ul class="list-unstyled feature-list">
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>100MB Depolama
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">100MB depolama alanı içerisinde ortalama 10 milyon kelime(34 bin sayfa) depolayabilirsiniz.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>20.000 Kelime Arama
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Ücretsiz plan dahilinde, veriniz içerisinde her ay toplamda 20.000 adet semantik arama yapma hakkınız vardır.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>20.000 Kelime Yapay Zeka Asistanı
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Ücretsiz plan dahilinde, veriniz içerisinde her ay toplamda 20.000 adet semantik arama yapma hakkınız vardır.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>Detaylı Raporlama
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style="margin-left: 5px;margin-right: 5px;" fill="#f00" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                    </svg>
+                                </span>Müşteri Hizmetleri
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Dilediğiniz zaman bizimle iletişime geçerek yaşadığınız problemler ile ilgili destek alabilirsiniz.</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center my-4">
+
+                            <a href="https://panel.vectorank.com/signup?plan=free" class="btn btn-outline-danger rounded-pill">Hemen Başla</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+                <div class="card h-100">
+                    <div class="card-body flex-column justify-content-around mx-auto">
+                        <div class="text-center pt-5">
+                            <img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                            <h2 class="mt-4">Bireysel(Individual)</h2>
+                            <h5>7$+KDV/Ay</h5>
+                        </div>
+                        <ul class="list-unstyled feature-list">
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>500MB
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">500MB depolama alanı içerisinde ortalama 50 milyon kelime(170 bin sayfa) depolayabilirsiniz.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>50.000 Kelime Arama
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Ücretsiz plan dahilinde, veriniz içerisinde her ay 50.000 kelimelik(token) arama yapma hakkınız vardır.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>50.000 Kelime Yapay Zeka Asistanı
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">asdasd.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>Detaylı Raporlama
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style="margin-left: 5px;margin-right: 5px;" fill="#f00" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                    </svg>
+                                </span>Müşteri Hizmetleri
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Dilediğiniz zaman bizimle iletişime geçerek yaşadığınız problemler ile ilgili destek alabilirsiniz.</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center my-4">
+
+                            <a href="https://panel.vectorank.com/signup?plan=free" class="btn btn-outline-danger rounded-pill">Hemen Başla</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+                <div class="card h-100">
+                    <div class="card-body flex-column justify-content-around mx-auto">
+                        <div class="text-center pt-5">
+                            <img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                            <h2 class="mt-4">Kurumsal(Corporation)</h2>
+                            <h5>319₺/Ay</h5>
+                        </div>
+                        <ul class="list-unstyled feature-list">
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>2GB Depolama
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">100MB depolama alanı içerisinde ortalama 200 milyon kelime(680 bin sayfa) depolayabilirsiniz</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>1 Milyon Kelime Arama/Ay
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Ücretsiz plan dahilinde, veriniz içerisinde her ay 3000 adet semantik arama yapma hakkınız vardır.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>1 Milyon Kelime Yapay Zeka Asistanı
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">asdasd.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>Detaylı Raporlama
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>Müşteri Hizmetleri
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Dilediğiniz zaman bizimle iletişime geçerek yaşadığınız problemler ile ilgili destek alabilirsiniz.</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center my-4">
+                            <a href="https://panel.vectorank.com/signup?plan=standard" class="btn btn-outline-danger rounded-pill">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-4 px-md-2 px-lg-3">
+                <div class="card h-100">
+                    <div class="card-body flex-column justify-content-around mx-auto">
+                        <div class="text-center pt-5">
+                            <img class="img-fluid" src="assets/img/icons/pricing.png" alt="" />
+                            <h2 class="mt-4">
+                                Enterprise
+                            </h2>
+                            <h5>Özel Fiyatlandırma(Custom Pricing)</h5>
+                        </div>
+                        <ul class="list-unstyled feature-list">
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>50.000.000 Token Yedekleme
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">250 token, ortalama 1 sayfa uzunluğunda metine karşılık gelir. Standart planı kullandığınız durumda ortalama 200.000 sayfalık metin içeriği saklayabilir ve bu metinler üzerinde arama yapabilirsiniz.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>500.000 Arama/Ay
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Ücretsiz plan dahilinde, veriniz içerisinde her ay 3000 adet semantik arama yapma hakkınız vardır.</div>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>Detaylı Raporlama
+                            </li>
+                            <li class="mb-3">
+                                <span class="me-2">
+                                    <svg class="bi bi-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2FAB73" viewBox="0 0 16 16">
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+                                    </svg>
+                                </span>Müşteri Hizmetleri
+                                <div class="explanation">
+                                    <div class="exp-mark">?</div>
+                                    <div class="exp-text">Dilediğiniz zaman bizimle iletişime geçerek yaşadığınız problemler ile ilgili destek alabilirsiniz.</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center my-4">
+                            <a class="btn btn-outline-danger rounded-pill" href="https://panel.vectorank.com/signup?plan=premium">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of .container-->
+
+</section>
+
+
+<section class="bg-100 mt-7 py-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Geliştiriciler İçin</h1>
+            </div>
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Depolama</h2>
+                        VectoRank depolama ücretleri oldukça makuldur. Ayrıca kullanmadığınız depolama alanı için ücret ödemezsiniz. Kullandığınız depolama alanı aşağıdaki tabloda görüldüğü gibi fiyatlandırılır:
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Depolama Alanı</th>
+                                    <th>Fiyatlandırma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Bulut Tabanlı Güvenli Depolama
+                                    </td>
+                                    <td>
+                                        0.004$/1MB
+                                        <div class="explanation">
+                                            <div class="exp-mark">?</div>
+                                            <div class="exp-text">.</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Sorgulama</h2>
+                        VectoRank yaptığınız sorgu adedi kadar ücret ödersiniz. Sorgulama ücretleri aşağıdaki gibidir:
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Sorgu Türü</th>
+                                    <th>Fiyatlandırma</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        İçerik Arama
+                                        <div class="explanation">
+                                            <div class="exp-mark">?</div>
+                                            <div class="exp-text">.</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Her 1000 Kelime / 0.04$
+                                        <div class="explanation">
+                                            <div class="exp-mark">?</div>
+                                            <div class="exp-text">.</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        AI Q/A Konuşması
+                                        <div class="explanation">
+                                            <div class="exp-mark">?</div>
+                                            <div class="exp-text">.</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Her 1000 Kelime / 0.06$
+                                        <div class="explanation">
+                                            <div class="exp-mark">?</div>
+                                            <div class="exp-text">.</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->

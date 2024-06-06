@@ -1,0 +1,87 @@
+1- How to choose database in your jobs:
+- Unstructured Databases
+- Structured Databases
+- Relational Databases
+- Non-Relational Databases
+
+2- Relational or Non-Relational Databases: Which one best for search engines?
+- Advantages and disadvantages of non-relational(NoSQL) databases
+
+3- Why we use postgresql in business layer of VectoRank?
+
+4- The Software Architecture behind the Vectorank
+- Microservices architecture
+
+5- What are vector databases?
+
+6- Why we have developed VectoRank?
+
+7- What is database replication? What is CAP?
+
+8- Kubernetes, the orchestrator of VectoRank.
+
+9- Horizontal Pod autoscaling in kubernetes
+
+10- Docker
+
+11- sharding and partitioning in mongodb
+
+12- sharding and partitioning in postgresql
+
+13- What are statefulsets?
+
+14- What is the most painful side of developing a search engine?
+
+15- Product Recommendation
+
+16- Article Recommendation
+
+17- Customer Clustering
+
+18- How we scale your data?
+
+19- Horizontal vs Vertical Scaling
+
+20- The architecture of small businesses: Monolithic Architecture
+
+21- Performance Comparison of VectoRank and Elasticsearch
+
+22- How VectoRank decide to shard an apps' database?
+	- logs request speed often and decide to shard.
+
+23- A Big Data Processing Strategy: Lambda Architecture
+
+24- What are differences between VectoRank and other Vector based search engines?
+- VectoRank allows you to create AI models from your content.
+- Performance of VectoRank
+- Serverless
+
+25- Architectural Schema of VectoRank
+
+26- Management business data  of VectoRank stored in Postgresql instead of Sql Server
+
+27- Role of design patterns and SOLID principles in development of scalable & robust applications.
+
+28- Critical decision: Software Architectures.
+
+29- Cloudflare as a CDN.
+
+30- We observed VectoRanks' performance on wikipedia articles
+
+31- Resumx.net, AI based resume matching application (Powered by VectoRank)
+
+32- Differences between vector based search and full-text search
+
+33- Converting word vectors to sentence&paragraph vectors
+
+34- Pivot-Based Vector Space Search (PBVS)
+
+35- Big Ball of Mud in Softwware Architectural Design
+
+36- Event Driven Architecture
+
+37- VectoRank Search Algorithm
+	= Three base algorithms
+	- VSM (Vector Space Model)
+	- Cosine Similarity
+	- Averaging Method 

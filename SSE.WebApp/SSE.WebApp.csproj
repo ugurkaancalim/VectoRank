@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Articles\" />
+    <Folder Include="wwwroot\plugins\" />
+    <Folder Include="wwwroot\vendors\%40popper\" />
+    <Folder Include="wwwroot\vendors\popper\" />
+  </ItemGroup>
+
+</Project>

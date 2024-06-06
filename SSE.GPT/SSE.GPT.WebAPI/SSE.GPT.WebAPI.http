@@ -1,0 +1,6 @@
+@SSE.GPT.WebAPI_HostAddress = http://localhost:5096
+
+GET {{SSE.GPT.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
